@@ -15,7 +15,7 @@ namespace Panel
         public ComDiag()
         {
             InitializeComponent();
-            //richTextBoxComDiag.ReadOnly = true;
+            richTextBoxComDiag.ReadOnly = true;
             richTextBoxComDiag.Text = "Connection Failed.";
         }
 
